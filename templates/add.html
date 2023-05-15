@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add product</title>
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+
+<body class="form_class back_color">
+    <div class="formm">
+        <form action="/productInfo" method="post">
+            <label for="Product Id : ">Product Id</label>
+            <input type="text" placeholder="Enter product id" name="p_id" required>
+
+            <br><br>
+            <label for="Product Name">Product Name</label>
+            <input type="text" placeholder="Enter Product Name" name="p_name" required>
+            <br><br>
+            <label for="Product Brand">Product Brand</label>
+            <input type="text" placeholder="Enter brand" name="p_brand" required><br><br>
+
+            <label for="Product Quantity">Product Quantity</label>
+            <input type="text" placeholder="Enter quantity " name="p_quantity" required><br><br>
+
+             <label for="Product price">Product price</label>
+            <input type="text" placeholder="Enter price " name="p_price" required><br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

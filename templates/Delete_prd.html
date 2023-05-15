@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Product</title>
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+
+<body class="form_class back_color">
+    <div class="formm">
+        <form action="/deleteprod" method="post">
+            <label for="Product Id : ">Product Id</label>
+            <br><br>
+            <input type="text" name="p_id" placeholder="Enter product id to delete" required>
+            <br><br>
+
+            <button type="submit"> Delete </button>
+            <a href="/product"> <button type="button"> Cancel</button></a>
+
+        </form>
+    </div>
+</body>
+
+</html>

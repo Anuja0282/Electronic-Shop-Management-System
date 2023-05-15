@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+       <title>Product Information</title>
+   </head>
+   <body>
+      <h3>click here to (<a href = "/productInfo">Add product
+         </a>)</h3>
+
+      <table>
+            <tr>
+               <th>brand</th>
+               <th>p_id</th>
+               <th>name</th>
+               <th>quantity</th>
+            </tr>
+          <tbody>
+           {% for product in AvailableProducts %}
+           <tr>
+              <td>{{ product.p_brand }}   </td>
+              <td>{{ product.p_id }}  </td>
+              <td>{{ product.p_name }}</td>
+              <td>{{ product.p_quantity }}</td>
+           </tr>
+          {% endfor %}
+          </tbody>
+      </table>
+
+   </body>
+</html>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/table.css">
+
+</head>
+
+<body>
+    <h1>Product Details</h1>
+    <br>
+    <form action="/searchprod" method="post">
+    <input type="search" class="search" name="p_id" placeholder="search for product"></form>
+    <table>
+        <tr>
+            <th>Brand</th>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Action</th>
+        </tr>
+        <tbody>
+             {% for product in AvailableProducts %}
+            <tr>
+                <td>{{ product.p_brand }} </td>
+                <td>{{ product.p_id }} </td>
+                <td>{{ product.p_name }}</td>
+                <td>{{ product.p_quantity }}</td>
+                <td>{{ product.p_price }}</td>
+                <td><button>Print</button><button type="submit">Delete</button></td>
+            </tr>
+             {% endfor %}
+        </tbody>
+
+    </table>
+</body>
+
+</html>

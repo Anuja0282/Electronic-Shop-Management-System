@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head></head>
+   <body>
+      <h3>click here to (<a href = "/ViewCust">Search Customer</a>)</h3>
+
+      <table>
+         <thead>
+            <tr>
+               <th>customer id</th>
+               <th>customer name</th>
+               <th>customer email</th>
+               <th>Product ID</th>
+               <th>quantity</th>
+            </tr>
+         </thead>
+
+         <tbody>
+         {% for cust in Customersdetails %}
+               <tr>
+                  <td>{{ cust.c_id }}</td>
+                  <td>{{ cust.c_name }}</td>
+                  <td>{{ cust.c_email }}</td>
+                  <td>{{ cust.pr_id }}</td>
+                  <td>{{ cust.c_qty }}</td>
+               </tr>
+         {% endfor %}
+         </tbody>
+      </table>
+
+   </body>
+</html>
+

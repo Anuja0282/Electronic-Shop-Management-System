@@ -1,0 +1,166 @@
+.btn {
+    padding: 1%;
+    color: black;
+}
+
+.nav1 {
+    background-color: #6096B4;
+}
+
+.nav2 h3 {
+    display: inline-flex;
+    margin-left: 20%;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    height: 20%;
+}
+
+.nav2 h3:hover+.hide {
+    color: black;
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button {
+    padding: 12px 26px;
+    display: inline-block;
+    justify-content: space-around;
+    /* text-decoration: none; */
+    font-size: 23px;
+    background: #6096B4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin: 2px 2px;
+    margin-left: 25px;
+}
+
+.button {
+    color: black;
+    cursor: pointer;
+}
+
+.anch {
+    text-decoration: none;
+    color: black;
+}
+
+.first {
+    position: relative;
+    padding: 120;
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+.customer {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 420px;
+}
+
+.back_color {
+    background-color: azure;
+}
+
+.product {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.formm {
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+    box-sizing: border-box;
+    color: black;
+}
+
+form {
+    align-items: center;
+}
+
+.form_class {
+    background-color: whitesmoke;
+}
+
+input[type=text],
+input[type=email] {
+    width: 60%;
+    display: grid;
+    margin: 8px 0px;
+    border-radius: 5px;
+    border-color: black;
+    padding: 13px 16px;
+    box-sizing: border-box;
+    font-size: medium;
+    color: black;
+    background-color: white;
+}
+
+label {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    width: 10%;
+    border-radius: 5px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    font-size: large;
+    color: white;
+    background-color: black;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.header_section {
+    height: 455px;
+    background: azure 0 0 no-repeat padding-box;
+    opacity: 2.2;
+    color: black;
+    text-align: center;
+}
+
+.header_wrapper h1 {
+    text-align: center;
+    padding: 5% 22%;
+}
+
+.header_wrapper p {
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.header_wrapper h2 {
+    color: #434242;
+}
+
+.img1 {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin-top: 2px;
+}
+
+.img2 {
+    /* position: relative;
+    width: 80%;
+    height: 70%; */
+    /* margin-top: 6px; */
+    margin-left: 210px;
+    position: relative;
+    width: 70%;
+    height: 450px;
+    margin-top: 2px;
+}

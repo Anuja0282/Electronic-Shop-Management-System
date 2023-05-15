@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+    {% if available  < 1 %}
+        <script>
+            alert("Currently product is not available");
+        </script>
+        <p>Currently available products :{{available}}</p>
+
+    {% else %}
+    <script>
+            alert("Ordered recorded successfully!!");
+    </script>
+    {% endif %}
+</body>
+</html>

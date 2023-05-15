@@ -1,0 +1,39 @@
+* {
+    background-color: azure;
+}
+
+h1 {
+    color: black;
+    margin-top: 180px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    position: absolute;
+    margin-top: 260px;
+    margin-right: 600px;
+    margin-left: -310px;
+    height: 40px;
+    width: 420px;
+    border-radius: 30px;
+    padding: 13px;
+    font-size: large;
+    border-color: black;
+    background: white;
+}
+
+.btn {
+    margin-top: 260px;
+    margin-left: 150px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
